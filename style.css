@@ -1,0 +1,101 @@
+/* body * {
+    outline: 1px solid red;
+} */
+
+p, h1, h2, div {font-family: 'Roboto', sans-serif;}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    box-shadow: 2px 2px 2px 1px rgb(62, 62, 62);
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    width: 300px;
+    margin: 0 auto;
+}
+.navigation a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 40px;
+    margin: 12px 0px;
+}
+main {
+    background-color: rgb(197, 197, 197);
+    padding: 12px;
+}
+h2 {
+    margin: 0 12px;
+    font-size: 40px;
+    padding-top: 12px;
+    color: grey;
+}
+section {
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0px auto;
+     box-shadow: 2px 2px 2px 1px rgb(62, 62, 62);
+}
+.contaner{
+    display: flex;
+    padding: 32px 0;
+    
+}
+.left-side, .right-side {
+    width: 50%;
+    font-size: 20px;
+    padding: 32px 0;
+    
+}
+.left-side {
+    padding-left: 12px;
+}
+
+.right-side{
+padding-right: 12px;
+
+}
+.left-side div, .right-side div {
+    padding: 12px;
+    border-bottom: 2px solid grey;
+    color: gray;
+}
+.bold {
+    font-weight: 100px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(197, 197, 197);
+    font-size: 20px;
+    color: grey;
+}
+@media screen and (min-width: 768px) {
+    
+    .container {
+        display: flex;
+        align-items: flex-end;
+        width: 88%;
+        justify-content: space-between;
+    }
+    .navigation {
+        display: inline;
+        
+    }
+    .navigation a {
+        font-size: 24px;
+        margin: 0px 12px;
+    }
+
+    .container img{ 
+        width: 120px;
+        margin: 0; 
+    }
+}
